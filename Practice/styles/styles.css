@@ -26,5 +26,14 @@ body {
     background-color: steelblue;
     color: white;
   }
+  /* Below is an example of selecting a class */
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
 
-  
+/* Below is an example of selecting an id value */
+#active {
+    background-color: white;
+    color: steelblue;
+}
