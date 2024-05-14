@@ -10,6 +10,7 @@ body {
   a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
   }
 
   h1 {
@@ -32,8 +33,27 @@ body {
     line-height: 1.5em;
   }
 
-/* Below is an example of selecting an id value */
-#active {
+  /* Below is an example of selecting an id value */
+  #active {
     background-color: white;
     color: steelblue;
-}
+  }
+
+  /* This will make an image adjust to screen size instead of being fixed */
+  img {
+    width: 80%;
+  }
+
+  p {
+    width: 80%;
+  }
+
+  /* this puts a border around every element */
+  * {
+    border: 2px solid blue;
+  }
+
+  a:hover {
+    background-color: white;
+    color: steelblue;
+  }
