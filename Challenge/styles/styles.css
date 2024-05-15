@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+  }
+
+  nav {
+    background-color: steelblue;
+    padding: 10px;
+  }
+
+  a {
+    color: white;
+    margin: 40px;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    color: steelblue;
+  }
+
+  a:hover {
+    background-color: steelblue;
+    color: white;
+  }
+
+  img {
+    width: 80%;
+  }
