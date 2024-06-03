@@ -13,6 +13,11 @@ nav a {
     padding: 35px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
@@ -23,6 +28,8 @@ nav a {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 main section {
@@ -48,6 +55,8 @@ body {
 
 header {
     background-color:#003049;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -141,8 +150,30 @@ h2 {
     padding-top: 10px;
 }
 
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
 #hero-img {
     width: 100%;
+}
+
+#hero-msg h4 {
+    color: white;
 }
 
 .rivers-card, .camping-card, .rapids-card {
