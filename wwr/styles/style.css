@@ -228,3 +228,67 @@ h2 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+/* rivers page css below */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+}
+
+.salmon-msg {
+    background-color: #c1121f;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 3/10;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.salmon-rivers {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.desolation-msg {
+    background-color: #c1121f;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/7;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.desolation-rivers {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.grand-canyon-msg {
+    background-color: #c1121f;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 3/10;
+    grid-row: 5/6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.grand-canyon-rivers {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.salmon-msg h2, .desolation-msg h2, .grand-canyon-msg h2 {
+    color: #003049;
+    font-family: Pacifico;
+}
+
+.salmon-msg p, .desolation-msg p, .grand-canyon-msg p {
+    color: #003049;
+    font-family: "Reddit Sans", Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
