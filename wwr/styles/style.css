@@ -300,3 +300,9 @@ h2 {
     font-size: .8em;
     padding-bottom: 15px;
 }
+
+#river-msg h1 {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
