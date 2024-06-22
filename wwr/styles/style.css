@@ -234,51 +234,59 @@ h2 {
 .rivers-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr) ;
+    justify-items: center;
+    gap: 20px;
 }
 
 .salmon-msg {
     background-color: #c1121f;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 3/10;
+    grid-column: 1/6;
     grid-row: 1/2;
-    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 50px;
 }
 
 .salmon-rivers {
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/12;
+    grid-row: 1/2;
+    width: 200px; 
+    height: 200px; 
+    margin-top: 175px;
+    margin-right: 400px;
 }
 
 .desolation-msg {
     background-color: #c1121f;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 1/7;
+    grid-column: 6/12;
     grid-row: 3/4;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .desolation-rivers {
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/6;
+    grid-row: 3/4;
+    width: 300px; 
+    height: 300px; 
+    margin-top: 75px;
+    margin-right: 200px;
 }
 
 .grand-canyon-msg {
     background-color: #c1121f;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 3/10;
+    grid-column: 1/6;
     grid-row: 5/6;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .grand-canyon-rivers {
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 6/12;
+    grid-row: 5/6;
+    width: 300px; 
+    height: 300px; 
+    margin-top: 125px;
 }
 
 .salmon-msg h2, .desolation-msg h2, .grand-canyon-msg h2 {
