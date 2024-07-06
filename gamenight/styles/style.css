@@ -117,7 +117,7 @@ main section img {
 
 footer {
     background-color: #66c7f4;
-    color: #000f08;
+    color: #136f63;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -134,7 +134,7 @@ footer p a:hover {
 }
 
 footer a {
-    color: #000f08;
+    color: #136f63;
     text-decoration: none;
 }
 
