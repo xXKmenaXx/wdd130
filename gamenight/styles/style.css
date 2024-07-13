@@ -90,7 +90,6 @@ h2 {
     margin-top: 50px;
 }
 
-
 .home-img {
     grid-column: 2/5; 
     margin-top: 50px;
@@ -149,8 +148,8 @@ footer .social img {
 /*  Component -> 3D Flip Image with Text;  The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
     background-color: transparent;
-    width: 600px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -191,3 +190,52 @@ footer .social img {
     color: white;
     transform: rotateY(180deg);
   }
+
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+}
+
+  .board-games {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 50px;
+  }
+
+  .board-img {  
+    height: 100%;
+    width: 100%;
+  }
+
+  .board-msg {
+    color: #66c7f4; 
+    grid-column: 4/7;
+    grid-row: 2/3;
+    padding: 25px;
+  }
+
+  .video-games {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    padding: 50px;
+  }
+
+  .video-img {  
+    height: 100%;
+    width: 100%;
+  }
+
+  .video-msg {
+    color: #66c7f4; 
+    grid-column: 4/7;
+    grid-row: 5/6;
+    padding: 25px;
+  }
+
+  #games-msg {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: #ff1053;
+    font-family: Pacifico;
+    font-size: 2em;
+}
