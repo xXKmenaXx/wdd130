@@ -239,3 +239,74 @@ footer .social img {
     font-family: Pacifico;
     font-size: 2em;
 }
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+}
+
+#menu-msg {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: #ff1053;
+    font-family: Pacifico;
+    font-size: 2em;
+    text-align: center;
+}
+
+  .snacks {  
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 50px;
+  }
+
+  .snacks-img {  
+    height: 300px;
+    width: 500px;
+  }
+
+  .snacks-msg {
+    color: #66c7f4; 
+    grid-column: 4/7;
+    grid-row: 2/3;
+    padding: 25px;
+    margin-top: 50px;
+  }
+
+  .meals {  
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 50px;
+  }
+
+  .meals-img {  
+    height: 300px;
+    width: 500px;
+  }
+
+  .meals-msg {
+    color: #66c7f4; 
+    grid-column: 4/7;
+    grid-row: 3/4;
+    padding: 25px;
+    margin-top: 50px;
+  }
+
+  .drinks {  
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding: 50px;
+  }
+
+  .drinks-img {  
+    height: 400px;
+    width: 250px;
+  }
+
+  .drinks-msg {
+    color: #66c7f4; 
+    grid-column: 4/7;
+    grid-row: 4/5;
+    padding: 25px;
+    margin-top: 50px;
+  }
